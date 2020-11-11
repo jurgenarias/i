@@ -1,0 +1,30 @@
+body {
+  background-color: rgb(12, 158, 198);
+}
+.jumbotron {
+background-color: rgb(10, 122, 152);
+}
+
+h1 {
+  text-align: center;
+}
+.lead{
+  text-align: center
+}
+.ejemplo{
+  color: blue;
+  font-size: xx-large;
+  text-align: center;
+}
+.resultado{
+  color: red;
+  font-size: xx-large;
+  text-align:center;
+  /* font-size-adjust: 0.5; */
+}
+#form {
+  font-size:xx-large;
+}
+span{
+font-size: 200%
+}
