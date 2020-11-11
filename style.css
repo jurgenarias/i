@@ -1,10 +1,12 @@
 body {
-  background-color: rgb(12, 158, 198);
+  background-color: #353b42e2;
 }
 .jumbotron {
-background-color: rgb(10, 122, 152);
+background-color: #5e676c;
 }
-
+img {
+  background-color:transparent;
+}
 h1 {
   text-align: center;
 }
@@ -12,12 +14,12 @@ h1 {
   text-align: center
 }
 .ejemplo{
-  color: blue;
+  color: orange;
   font-size: xx-large;
   text-align: center;
 }
 .resultado{
-  color: red;
+  color: rgb(31, 235, 58);
   font-size: xx-large;
   text-align:center;
   /* font-size-adjust: 0.5; */
