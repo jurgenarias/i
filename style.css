@@ -1,38 +1,46 @@
 body {
   background-color: #353b42e2;
 }
+
 .jumbotron {
 background-color: #5e676c;
 }
+
 img {
   background-color:transparent;
 }
+
 h1 {
   text-align: center;
 }
+
 .lead{
   text-align: center
 }
+
 .ejemplo{
   color: orange;
   font-size: xx-large;
   text-align: center;
 }
+
 .resultado{
   color: rgb(31, 235, 58);
   font-size: xx-large;
   text-align:center;
-  /* font-size-adjust: 0.5; */
+  font-size-adjust: 1.0;
 }
+
 #form {
   font-size:xx-large;
 }
+
 span{
 font-size: 200%
 }
+
 img{
 display: block;
 margin-left: auto;
 margin-right: auto;
-/* width: 50%; */
 }
