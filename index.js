@@ -55,6 +55,7 @@ limpia.on("click", runLimpia);
 function runLimpia() {
   d3.event.preventDefault();
   document.getElementById("example-form-input").value = "";
-  d3.select("#ni").html(" ")
+  d3.select("#ni").html("")
+  d3.select("#copiar").html("")
 
 }
