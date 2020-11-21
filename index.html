@@ -2,16 +2,16 @@
 <html lang="en">
 
 <head>
-  
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-B87HPP1Q1D"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-B87HPP1Q1D');
-</script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B87HPP1Q1D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-B87HPP1Q1D');
+  </script>
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,7 +20,7 @@
   <script src="https://d3js.org/d3.v5.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
-  <link rel = "icon" href ="images/monoculo.png" type = "image/x-icon"> 
+  <link rel="icon" href="images/monoculo.png" type="image/x-icon">
 </head>
 
 <body>
@@ -50,13 +50,20 @@
         <img src="images/flecha.png" width="150" height="80" alt="flecha">
       </div>
       <div class="col-md-5">
-        <p class="resultado">¡Pir lis wibis vis si ninci ti dijin jigir!</p>
+        <p id="nini" class="resultado">¡Pir lis wibis vis si ninci ti dijin jigir!</p>
       </div>
     </div>
     <div class="row">
+      <div id="copiar" class="col-md-12">
+      
+      </div>
+    </div>
+
+    <div class="row">
       <div class="col-md-12">
         <h1>
-          <span></span>
+          <span id="ni">
+          </span>
         </h1>
       </div>
     </div>
@@ -64,8 +71,9 @@
       <div class="col-md-12">
         <form id="form">
           <div class="form-group form-control-lg">
+
             <input class="form-control input-lg form-control-lg" id="example-form-input"
-              placeholder="Pega acá lo que te dijo la maldita o el desgraciado" name="example-form" type="text">
+              placeholder="¡Pega acá tu texto!" name="example-form" type="text">
           </div>
           <button id="button" type="button" class="btn btn-default btn-lg">¡Dale pe!</button>
         </form>
